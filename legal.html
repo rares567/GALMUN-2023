@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <!--shrink-to-fit=no-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="og:image" content="img/icj-og.png"/>
+
+    <title>GalMUN 2023</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Bold.otf" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Regular.otf" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Demi.otf" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidenav.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    
+    <style>
+    .header_commitees {
+        background: url("./img/legal_header.png") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: white;
+        height: 50%;
+        font-family: "Avenir Next" !important;
+    }
+
+    @media (max-width: 767.98px) {
+        .header_commitees {
+            background: url("./img/legal_header.png") no-repeat center;
+            background-size: cover;
+            height: 50%;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+
+        .header_commitees {
+            height: 50%;
+            background: url("./img/legal_header.png") no-repeat center;
+            background-size: cover;
+        }
+    }
+</style>
+
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<header>
+  
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark navbar-custom static-top text-center" role="navigation">
+  <div class="navbar-inner"></div>
+    <div class="container ">
+      <a class="navbar-brand" href="/" ><img src="img/logo.png" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon" onclick="openNav()"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown">Committees</a>
+                <div class="dropdown-menu animate slideIn">
+                    <a class="dropdown-item" href="sochum.html">SOCHUM</a>
+                    <a class="dropdown-item" href="unodc.html">UNODC</a>
+                    <a class="dropdown-item" href="who.html">WHO</a>
+                    <a class="dropdown-item" href="legal.html">LEGAL</a>
+                    <a class="dropdown-item" href="unsc.html">UNSC</a>
+                </div>
+            </li>
+            <!--<li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+                <div class="dropdown-menu animate slideIn">
+                    <a class="dropdown-item" href="#">Pricing</a>
+                    <a class="dropdown-item" href="#">Sponsors</a>
+                    <a class="dropdown-item" href="#">The Experience</a>
+                    <a class="dropdown-item" href="#">Location</a>
+                </div>
+            </li>-->
+            <button class="btn navbar-btn applyB" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform'">Apply</button> 
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</header><body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="w3-animate-opacity"><i
+            class="fas fa-arrow-up"></i></button>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom text-center" id="navbar">
+        <div class="navbar-inner"></div>
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="img/logo.png" id="logoSmall" alt=></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsiveSmall">
+                <span class="navbar-toggler-icon" onclick="openNav()"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsiveSmall">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active-custom" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">Committees</a>
+                        <div class="dropdown-menu animate slideIn">
+                            <a class="dropdown-item" href="sochum.html">SOCHUM</a>
+                            <a class="dropdown-item" href="unodc.html">UNODC</a>
+                            <a class="dropdown-item" href="who.html">WHO</a>
+                            <a class="dropdown-item" href="legal.html">LEGAL</a>
+                            <a class="dropdown-item" href="unsc.html">UNSC</a>
+                        </div>
+                    </li>
+                    <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">About</a>
+                        <div class="dropdown-menu animate slideIn">
+                            <a class="dropdown-item" href="#">Pricing</a>
+                            <a class="dropdown-item" href="#">Sponsors</a>
+                            <a class="dropdown-item" href="#">The Experience</a>
+                            <a class="dropdown-item" href="#">Location</a>
+                        </div>
+                    </li>-->
+                    <button class="btn navbar-btn applyB" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform')">Apply</button>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>    <div class="header_commitees vertical-align">
+    </div>
+   <section class="bg-light">
+        <div class="container padding">
+            <div class="row">
+           
+                 <h2>TOPIC – Emerging Legal Frameworks for Lethal Autonomous Weapons</h2>
+                <p class="lead">Autonomous weapons are not a work of science fiction from a distant dystopian future. They are an immediate cause of humanitarian concern and demand an urgent, international political response. The era in which algorithms decide who lives and who dies is upon us.
+                    <br><br>Lethal autonomous weapons (LAWs) are a type of autonomous military system that can independently search for and engage targets based on programmed constraints and descriptions. LAWs are also known as lethal autonomous weapon systems (LAWS), autonomous weapon systems (AWS), robotic weapons or killer robots. 
+                    <br><br>The formation of new and revised international laws on autonomous weapons is long due. A majority of the world’s states argue that some autonomous weapons must be banned - specifically, those which target humans, which are highly unpredictable, or which function beyond meaningful human control. On the other hand, a plethora of governments call for other autonomous weapons - those that can be meaningfully controlled by humans - to be regulated. How can we ensure that humanity is protected from the danger of autonomous weapons, and what should the future of this military system look like?                    
+                </p>
+                
+    <h2>About the Committee</h2>
+                <p class="lead">The Legal Committee (Sixth Committee) is one of six main committees of the General Assembly of the United Nations. It deals primarily with legal matters and is the primary forum for the consideration of international law and other legal matters concerning the United Nations.
+                </p>
+            </div>
+            <div class="row mb-5">
+
+            <!--<section class="mx-md-5 text-center text-lg-left">
+                <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="row p-5">
+                    <div class="col-lg-8 d-flex flex-column justify-content-between">
+                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                        <p class="font-weight-bold lead mb-2"><strong>Anna Smith</strong></p>
+                        <p class="font-weight-bold text-muted">Product manager</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex mb-2 align-items-center">
+                        <div class="avatar mx-4 w-100 white d-flex justify-content-center align-items-center">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle img-fluid z-depth-1" alt="woman avatar">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="row p-5">
+                    <div class="col-lg-8 d-flex flex-column justify-content-between">
+                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                        <p class="font-weight-bold lead mb-2"><strong>Anna Smith</strong></p>
+                        <p class="font-weight-bold text-muted">Product manager</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex mb-2 align-items-center">
+                        <div class="avatar mx-4 w-100 white d-flex justify-content-center align-items-center">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle img-fluid z-depth-1" alt="woman avatar">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>-->
+
+                
+            </div>
+            
+            <div class="row">
+                <h2>Country Matrix :</h2>
+            </div>
+            <div class="row mt-5">
+                
+                 <ul class="matrix_table">
+                    <li>Arab Republic of Egypt</li>
+                    <li>Commonwealth of Australia</li>
+                    <li>Democratic People's Republic of Korea</li>
+                    <li>European Union (observer)</li>
+                    <li>Federative Republic of Brazil</li>
+                    <li>French Republic</li>
+                    <li>International Criminal Court (observer)</li>
+                    <li>Islamic Emirate of Afghanistan</li>
+                    <li>Japan</li>
+                    <li>Kingdom of Denmark</li>
+                    <li>Kingdom of the Netherlands</li>
+                    <li>People's Democratic Republic of Algeria</li>
+                    <li>People's Republic of China</li>
+                    <li>Principality of Monaco</li>
+                    <li>Republic of Austria</li>
+                    <li>Republic of Djibouti</li>
+                    <li>Republic of Estonia</li>
+                    <li>Republic of India</li>
+                    <li>Republic of Korea</li>
+                    <li>Republic of Turkey</li>
+                    <li>Russian Federation</li>
+                    <li>State of Israel</li>
+                    <li>Syrian Arab Republic</li>
+                    <li>Ukraine</li>
+                    <li>United Kingdom of Great Britain and Northern Ireland</li>
+                    <li>United States of America</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials text-center bg-light" id="board" style="padding-top: 2rem;padding-bottom: 2rem;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-2" src="img/simona_necula.png" alt="">
+                        <h5>Simona Necula</h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-2" src="img/horia_barbu.png" alt="">
+                        <h5>Horia Barbu</h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-2" src="img/yusif_mahar.png" alt="">
+                        <h5>Yusif Mahar</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="logo"><a href="index.html"><img src="img/logo.png" style="max-height: 70px;"></a></h2>
+                    <h6>A MUN conference with a tradition of innovation and a rich history of working
+                        towards a better future.</h4>
+                </div>
+                <div class="col-md-6 mt-md-6 mt-6">
+                    <ul class="list-unstyled">
+                        <li class="m-3"><a href="https://goo.gl/maps/Q5hHbFbdb96hpybHA" target="_blank"><i class="fas fa-map-marker-alt fa-1.5x fa-fw mx-3"></i>Strada Nicolae Bălcescu,
+                            41, Galaţi</li></a>
+                            
+                        <li class="m-3"><a href="tel:+40 236 411 688"><i class="fas fa-phone fa-1.5x fa-fw mx-3"></i> +40 236 411 688</li></a>
+                        
+                        <li class="m-3"><a href="mailto:galmunconf@gmail.com"><i class="fas fa-envelope fa-1.5x fa-fw mx-3"></i> galmunconf@gmail.com</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-networks">
+                        <a href="https://www.instagram.com/galmunconference/" target="_blank" class="instagram"><i class="fab fa-instagram fa-fw"></i></a>
+                        
+                        <a href="https://www.facebook.com/galmunconference/" target="_blank" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
+                    </div>
+                    <button type="button" class="btn applyB" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform')">Apply</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&#169;2023 GalMUN - Galati Model United Nations. All Rights Reserved. Created by Rareș Bănilă & Munteanu Daniela</p>
+        </div>
+    </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/sidenav.js"></script>

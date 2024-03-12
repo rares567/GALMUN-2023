@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <!--shrink-to-fit=no-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="og:image" content="img/security-og.png"/>
+
+    <title>GalMUN 2023</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Bold.otf" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Regular.otf" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Demi.otf" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidenav.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    
+    <style>
+    .header_commitees {
+        background: url("./img/unsc_header.png") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: white;
+        height: 50%;
+        font-family: "Avenir Next" !important;
+    }
+
+    @media (max-width: 767.98px) {
+        .header_commitees {
+            background: url("./img/unsc_header.png") no-repeat center;
+            background-size: cover;
+            height: 50%;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+
+        .header_commitees {
+            height: 50%;
+            background: url("./img/unsc_header.png") no-repeat center;
+            background-size: cover;
+        }
+    }
+</style>
+
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<header>
+  
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark navbar-custom static-top text-center" role="navigation">
+  <div class="navbar-inner"></div>
+    <div class="container ">
+      <a class="navbar-brand" href="/" ><img src="img/logo.png" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon" onclick="openNav()"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown">Committees</a>
+                <div class="dropdown-menu animate slideIn">
+                    <a class="dropdown-item" href="sochum.html">SOCHUM</a>
+                    <a class="dropdown-item" href="unodc.html">UNODC</a>
+                    <a class="dropdown-item" href="who.html">WHO</a>
+                    <a class="dropdown-item" href="legal.html">LEGAL</a>
+                    <a class="dropdown-item" href="unsc.html">UNSC</a>
+                </div>
+            </li>
+            <!--<li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+                <div class="dropdown-menu animate slideIn">
+                    <a class="dropdown-item" href="#">Pricing</a>
+                    <a class="dropdown-item" href="#">Sponsors</a>
+                    <a class="dropdown-item" href="#">The Experience</a>
+                    <a class="dropdown-item" href="#">Location</a>
+                </div>
+            </li>-->
+            <button class="btn navbar-btn applyB" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform'">Apply</button> 
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</header><body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="w3-animate-opacity"><i
+            class="fas fa-arrow-up"></i></button>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom text-center" id="navbar">
+        <div class="navbar-inner"></div>
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="img/logo.png" id="logoSmall" alt=></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsiveSmall">
+                <span class="navbar-toggler-icon" onclick="openNav()"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsiveSmall">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active-custom" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">Committees</a>
+                        <div class="dropdown-menu animate slideIn">
+                            <a class="dropdown-item" href="sochum.html">SOCHUM</a>
+                            <a class="dropdown-item" href="unodc.html">UNODC</a>
+                            <a class="dropdown-item" href="who.html">WHO</a>
+                            <a class="dropdown-item" href="legal.html">LEGAL</a>
+                            <a class="dropdown-item" href="unsc.html">UNSC</a>
+                        </div>
+                    </li>
+                    <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">About</a>
+                        <div class="dropdown-menu animate slideIn">
+                            <a class="dropdown-item" href="#">Pricing</a>
+                            <a class="dropdown-item" href="#">Sponsors</a>
+                            <a class="dropdown-item" href="#">The Experience</a>
+                            <a class="dropdown-item" href="#">Location</a>
+                        </div>
+                    </li>-->
+                    <button class="btn navbar-btn applyB" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform')">Apply</button>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>    <div class="header_commitees vertical-align">
+    </div>
+<section class="bg-light">
+        <div class="container padding">
+            <div class="row">
+           
+                 <h2>TOPIC - Addressing the situation in Somaliland</h2>
+                <p class="lead">After the independence from the British and subsequent union with Somalia in 1960, Somaliland was a prospering region.
+                    <br><br>However, the South of Somalia quickly dominated the North, leading to the marginalisation of Somaliland and the subsequent anti-union movement. Several revolutions were attempted, although most failed due to the small number of soldiers and the lack of military preparation.
+                    <br><br>Nonetheless, in 1991 the Somali National Movement, led by Abdirahman Ahmed Ali Tuur, declared independence for all territories of Somaliland. 
+                    <br><br>In 2001, the constitution of Somaliland was also voted upon, passing with an overwhelming majority.
+                    <br><br>While all of this happened, the main problem for Somaliland remains international recognition. Currently no country recognises Somaliland as an independent nation. This comes during a time when the territory has its own constitution, president and other factors that would make any state in their situation a de facto state.
+                </p>
+                
+    <h2>About the Committee</h2>
+                <p class="lead">The Security Council has primary responsibility for the maintenance of international peace and security. It has 15 Members, and each Member has one vote. Under the Charter of the United Nations, all Member States are obligated to comply with Council decisions. The Security Council takes the lead in determining the existence of a threat to the peace or act of aggression.
+                </p>
+            </div>
+            
+            <div class="row">
+                <h2>Country Matrix :</h2>
+            </div>
+            <div class="row mt-5">
+                
+                 <ul class="matrix_table">
+                    <li>Federal Republic of Germany</li>
+                    <li>Federal Republic of Somaliland</li>
+                    <li>Federative Republic of Brazil</li>
+                    <li>French Republic</li>
+                    <li>Kingdom of Sweden</li>
+                    <li>People’s Republic of China</li>
+                    <li>Republic of Italy</li>
+                    <li>Republic of Djibouti</li>
+                    <li>Republic of Ethiopia</li>
+                    <li>Republic of Kenya</li>
+                    <li>Republic of the Sudan</li>
+                    <li>Republic of Turkey</li>
+                    <li>Russian Federation</li>
+                    <li>Somalia</li>
+                    <li>South Africa</li>
+                    <li>State of Eritrea</li>
+                    <li>State of Israel</li>
+                    <li>United Arab Emirates</li>
+                    <li>United Kingdom of Great Britain and Northern Ireland</li>
+                    <li>Yemen</li>
+                    <li>African Union (observer)</li>
+                    <li>The Arab Republic of Egypt</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials text-center bg-light" id="board" style="padding-top: 2rem;padding-bottom: 2rem;">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="testimonial-item mx-auto mb-5">
+                        <div class="image-container">
+                            <img class="img-fluid rounded-circle mb-2" src="img/bianca_constantin.png" alt="">
+                        </div>
+                        <h5>Bianca Constantin</h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="testimonial-item mx-auto mb-5">
+                        <img class="img-fluid rounded-circle mb-2" src="img/vlad_iliescu.png" alt="">
+                        <h5>Vlad Iliescu</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="logo"><a href="index.html"><img src="img/logo.png" style="max-height: 70px;"></a></h2>
+                    <h6>A MUN conference with a tradition of innovation and a rich history of working
+                        towards a better future.</h4>
+                </div>
+                <div class="col-md-6 mt-md-6 mt-6">
+                    <ul class="list-unstyled">
+                        <li class="m-3"><a href="https://goo.gl/maps/Q5hHbFbdb96hpybHA" target="_blank"><i class="fas fa-map-marker-alt fa-1.5x fa-fw mx-3"></i>Strada Nicolae Bălcescu,
+                            41, Galaţi</li></a>
+                            
+                        <li class="m-3"><a href="tel:+40 236 411 688"><i class="fas fa-phone fa-1.5x fa-fw mx-3"></i> +40 236 411 688</li></a>
+                        
+                        <li class="m-3"><a href="mailto:galmunconf@gmail.com"><i class="fas fa-envelope fa-1.5x fa-fw mx-3"></i> galmunconf@gmail.com</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-networks">
+                        <a href="https://www.instagram.com/galmunconference/" target="_blank" class="instagram"><i class="fab fa-instagram fa-fw"></i></a>
+                        
+                        <a href="https://www.facebook.com/galmunconference/" target="_blank" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
+                    </div>
+                    <button type="button" class="btn applyB" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform')">Apply</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&#169;2023 GalMUN - Galati Model United Nations. All Rights Reserved. Created by Rareș Bănilă & Munteanu Daniela</p>
+        </div>
+    </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/sidenav.js"></script>

@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <!--shrink-to-fit=no-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="og:image" content="img/crisis-og.png"/>
+
+    <title>GalMUN 2023</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Bold.otf" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Regular.otf" rel="stylesheet" type="text/css">
+    <link href="Avenir/AvenirNextLTPro-Demi.otf" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidenav.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    
+    <style>
+    .header_commitees {
+        background: url("./img/unodc_header.PNG") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: white;
+        height: 50%;
+        font-family: "Avenir Next" !important;
+    }
+
+    @media (max-width: 767.98px) {
+        .header_commitees {
+            background: url("./img/unodc_header.PNG") no-repeat center;
+            background-size: cover;
+            height: 50%;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+
+        .header_commitees {
+            height: 50%;
+            background: url("./img/unodc_header.PNG") no-repeat center;
+            background-size: cover;
+        }
+    }
+</style>
+
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<header>
+  
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark navbar-custom static-top text-center" role="navigation">
+  <div class="navbar-inner"></div>
+    <div class="container ">
+      <a class="navbar-brand" href="/" ><img src="img/logo.png" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon" onclick="openNav()"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown">Committees</a>
+                <div class="dropdown-menu animate slideIn">
+                    <a class="dropdown-item" href="sochum.html">SOCHUM</a>
+                    <a class="dropdown-item" href="unodc.html">UNODC</a>
+                    <a class="dropdown-item" href="who.html">WHO</a>
+                    <a class="dropdown-item" href="legal.html">LEGAL</a>
+                    <a class="dropdown-item" href="unsc.html">UNSC</a>
+                </div>
+            </li>
+            <!--<li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+                <div class="dropdown-menu animate slideIn">
+                    <a class="dropdown-item" href="#">Pricing</a>
+                    <a class="dropdown-item" href="#">Sponsors</a>
+                    <a class="dropdown-item" href="#">The Experience</a>
+                    <a class="dropdown-item" href="#">Location</a>
+                </div>
+            </li>-->
+            <button class="btn navbar-btn applyB" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform'">Apply</button> 
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+</header><body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="w3-animate-opacity"><i
+            class="fas fa-arrow-up"></i></button>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom text-center" id="navbar">
+        <div class="navbar-inner"></div>
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="img/logo.png" id="logoSmall" alt=></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsiveSmall">
+                <span class="navbar-toggler-icon" onclick="openNav()"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsiveSmall">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active-custom" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">Committees</a>
+                        <div class="dropdown-menu animate slideIn">
+                            <a class="dropdown-item" href="sochum.html">SOCHUM</a>
+                            <a class="dropdown-item" href="unodc.html">UNODC</a>
+                            <a class="dropdown-item" href="who.html">WHO</a>
+                            <a class="dropdown-item" href="legal.html">LEGAL</a>
+                            <a class="dropdown-item" href="unsc.html">UNSC</a>
+                        </div>
+                    </li>
+                    <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">About</a>
+                        <div class="dropdown-menu animate slideIn">
+                            <a class="dropdown-item" href="#">Pricing</a>
+                            <a class="dropdown-item" href="#">Sponsors</a>
+                            <a class="dropdown-item" href="#">The Experience</a>
+                            <a class="dropdown-item" href="#">Location</a>
+                        </div>
+                    </li>-->
+                    <button class="btn navbar-btn applyB" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform')">Apply</button>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>    <div class="header_commitees vertical-align">
+    </div>
+<section class="bg-light">
+        <div class="container padding">
+            <div class="row">
+           
+                <h2>TOPIC - Tackling the issue of the opioid crisis</h2>
+                <p class="lead">For over a decade, the United Nations Office on Drugs and Crime (UNODC) has made continuous efforts with the voice of science to help put a stop to addiction to medicine. The opioid crisis represents an increasing global problem, one linked to high mortality rates, the consequences of which affects millions. Nevertheless, many cannot afford proper care for illnesses, even though access to opioid analgesics has been provided by international drug conventions.
+                    <br><br>In more recent years, this problem has started spreading worldwide. Overdoses related to opiates have skyrocketed on the other side of the Atlantic. While opioid related deaths are currently at significantly lower levels than in the USA, they still represent an avertible health and financial burden across the EU countries. In Africa, an opiate that goes under the name of Tramadol is quickly getting people hooked, especially those who are part of the lower class in rural areas. Across the Pacific, Fentanyl produced in China is making its way to powerful drug cartels in Mexico and other South American countries, which lace their drugs with it, making them more addictive, only to then export them to the USA. In Oceania, Australia and New Zealand are fighting a gruesome battle against the illicit import of opiates from South East Asian countries like Myanmar, India, Laos, and even from Afghanistan, the world's largest opium production. 
+                    <br><br>So, what are you waiting for? Join us in the UNODC committee to engage in fruitful debates on how to stop one of the 21st century's most dangerous crises and how to aid the victims of drug abuse.
+                </p>
+                
+    <h2>About the Committee</h2>
+                <p class="lead">The United Nations Office on Drugs and Crime (UNODC) has the mandate to make the world safer from drugs, organized crime, corruption and terrorism. The organization is committed to achieving health, security and justice for all by tackling these threats and promoting peace and sustainable well-being as deterrents to them.
+                </p>
+            </div>
+            
+            <div class="row">
+                <h2>Country Matrix :</h2>
+            </div>
+            <div class="row mt-5">
+                
+                 <ul class="matrix_table">
+                    <li>Commonwealth of Australia</li>
+                    <li>Democratic People's Republic of Korea</li>
+                    <li>Dominion of Canada</li>
+                    <li>Federal Republic of Germany</li>
+                    <li>Federal Republic of Nigeria</li>
+                    <li>French Republic</li>
+                    <li>Islamic Emirate of Afghanistan</li>
+                    <li>Islamic Republic of Pakistan</li>
+                    <li>Kingdom of the Netherlands</li>
+                    <li>Lao People's Democratic Republic</li>
+                    <li>Oriental Republic of Uruguay</li>
+                    <li>People's Republic of China</li>
+                    <li>Republic of Colombia</li>
+                    <li>Republic of Ghana</li>
+                    <li>Republic of India</li>
+                    <li>Republic of Kenya</li>
+                    <li>Republic of the Union of Myanmar</li>
+                    <li>Russian Federation</li>
+                    <li>Socialist Republic of Vietnam</li>
+                    <li>Swiss Confederation</li>
+                    <li>United Kingdom</li>
+                    <li>United Mexican States</li>
+                    <li>United States of America</li>          
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials text-center bg-light" id="board" style="padding-top: 2rem;padding-bottom: 2rem;">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="testimonial-item mx-auto mb-5">
+                        <div class="image-container">
+                            <img class="img-fluid rounded-circle mb-2" src="img/rares_vasile.png" alt="">
+                        </div>
+                        <h5>Rareș Vasile</h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="testimonial-item mx-auto mb-5">
+                        <img class="img-fluid rounded-circle mb-2" src="img/andrada_ilie.png" alt="">
+                        <h5>Andrada Ilie</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="logo"><a href="index.html"><img src="img/logo.png" style="max-height: 70px;"></a></h2>
+                    <h6>A MUN conference with a tradition of innovation and a rich history of working
+                        towards a better future.</h4>
+                </div>
+                <div class="col-md-6 mt-md-6 mt-6">
+                    <ul class="list-unstyled">
+                        <li class="m-3"><a href="https://goo.gl/maps/Q5hHbFbdb96hpybHA" target="_blank"><i class="fas fa-map-marker-alt fa-1.5x fa-fw mx-3"></i>Strada Nicolae Bălcescu,
+                            41, Galaţi</li></a>
+                            
+                        <li class="m-3"><a href="tel:+40 236 411 688"><i class="fas fa-phone fa-1.5x fa-fw mx-3"></i> +40 236 411 688</li></a>
+                        
+                        <li class="m-3"><a href="mailto:galmunconf@gmail.com"><i class="fas fa-envelope fa-1.5x fa-fw mx-3"></i> galmunconf@gmail.com</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-networks">
+                        <a href="https://www.instagram.com/galmunconference/" target="_blank" class="instagram"><i class="fab fa-instagram fa-fw"></i></a>
+                        
+                        <a href="https://www.facebook.com/galmunconference/" target="_blank" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
+                    </div>
+                    <button type="button" class="btn applyB" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScVXN2RI5_MjNFjup9eoEgLvIFWEaKHzso8R2akkNwL5Jg0ow/viewform')">Apply</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&#169;2023 GalMUN - Galati Model United Nations. All Rights Reserved. Created by Rareș Bănilă & Munteanu Daniela</p>
+        </div>
+    </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/sidenav.js"></script>

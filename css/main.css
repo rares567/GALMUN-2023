@@ -1,0 +1,866 @@
+:root {
+    --main-theme: #09223c;
+    --secondary-theme: #09223c;
+    --accents: #1179b9;
+    --SOCHUM: 180,142,56;
+    --WHO: 49,98,37;
+    /*#f36f5f;*/
+    --UNSC: 109,15,9;
+    /*#437492;*/
+    --UNODC: 57,13,66;
+    /*#333333;*/
+    --LEGAL: 121,108,111;
+    /*#ffc643;*/
+    --country_btn: 51, 51, 51;
+    --main-padding: 15px;
+    --gradient-up: rgba(218, 107, 85, 0.329);
+    --gradient-down: rgba(6, 53, 80, 0.589);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    font-family: "Lato", "Avenir Next", "Helvetica Neue", sans-serif;
+    height: 100%;
+    color: black;
+    width: 100%;
+    /*
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    */
+}
+
+#intro {
+    background: url(../img/bg-landing-min.jpg) no-repeat center;
+    background-color: #090a0a34 !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 92%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown .a:hover {
+    background: var(--main-theme);
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-custom {
+    background-color: var(--main-theme);
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+    z-index: 4 !important;
+}
+
+
+.navbar-custom a {
+    font-size: 17px;
+}
+
+.navbar-nav>li {
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+nav.navbar {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+    max-height: 70px;
+}
+
+/*
+nav.navbar .nav-link{
+    opacity: 1 !important;
+    color: white !important;
+}
+nav.navbar .nav-link{
+    opacity: 0.8 !important;
+}
+.nav-link{
+    font-size: 1.1 em !important;
+}*/
+.navbar-inner {
+    background: transparent;
+}
+
+.active-custom {
+    opacity: 0.5 !important;
+}
+
+.nav-link {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    opacity: 0.8 !important;
+}
+
+.padding {
+    padding: 2rem;
+}
+
+#logo {
+    max-height: 60px;
+}
+
+#timer {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+#title {
+    font-size: 80px;
+}
+
+#about {
+    background-color: #151853;
+    margin: 100px;
+}
+
+.p {
+    font-size: 16px;
+}
+
+.secondary {
+    background-color: var(--secondary-theme);
+    color: white;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/bg-masthead.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.applyB {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    color: white !important;
+    text-decoration: none !important;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.applyB:hover {
+    color: var(--main-theme) !important;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.navbar-fixed-top {
+    position: relative;
+}
+
+.smaller {
+    padding: 8px 16px;
+    font-size: 1rem;
+}
+
+#logoSmall {
+    max-height: 40px;
+}
+
+@media (max-width: 767.98px) {
+    .applyB {
+        align-content: center !important;
+    }
+
+    #text {
+        font-size: 50px;
+    }
+}
+
+.c_matrix_ecofin {
+    border: 3px solid rgba(var(--SOCHUM));
+    width: auto;
+    padding: 6px 18px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgba(var(--SOCHUM));
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.c_matrix_ecofin:hover {
+    background-color: rgba(var(--SOCHUM));
+    color: white;
+}
+
+.c_matrix_crisis {
+    border: 3px solid rgba(var(--UNODC));
+    width: auto;
+    padding: 6px 18px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgba(var(--UNODC));
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.c_matrix_crisis:hover {
+    background-color: rgba(var(--UNODC));
+    color: white;
+}
+
+.c_matrix_HR {
+    border: 3px solid rgba(var(--WHO));
+    width: auto;
+    padding: 6px 18px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgba(var(--WHO));
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.c_matrix_HR:hover {
+    background-color: rgba(var(--WHO));
+    color: white;
+}
+
+.c_matrix_ICJ {
+    border: 3px solid rgba(var(--LEGAL));
+    width: auto;
+    padding: 6px 18px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgba(var(--LEGAL));
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.c_matrix_ICJ:hover {
+    background-color: rgba(var(--LEGAL));
+    color: white;
+}
+
+.c_matrix_Security {
+    border: 3px solid rgba(var(--UNSC));
+    width: auto;
+    padding: 6px 18px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgba(var(--UNSC));
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.c_matrix_Security:hover {
+    background-color: rgba(var(--UNSC));
+    color: white;
+}
+
+.c_matrix_Legal {
+    border: 3px solid rgba(var(--Legal));
+    width: auto;
+    padding: 6px 18px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgba(var(--Legal));
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.c_matrix_Legal:hover {
+    background-color: rgba(var(--Legal));
+    color: white;
+}
+
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s ease;
+    background-color: #008cba;
+}
+
+.img-gradient:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 250;
+    width: 100%;
+    height: 92%;
+    display: inline-block;
+    /*
+    rgba(0,47,75,0.5)
+    rgba(220, 66, 37, 0.5)
+    */
+    background: -moz-linear-gradient(top,
+            var(--gradient-up) 0%,
+            var(--gradient-down) 100%,
+            0.4);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            color-stop(0%, var(--gradient-down)),
+            color-stop(100%, var(--gradient-down)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,
+            var(--gradient-up) 0%,
+            var(--gradient-down) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,
+            var(--gradient-up) 0%,
+            var(--gradient-down) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,
+            var(--gradient-up) 0%,
+            var(--gradient-down) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom,
+            var(--gradient-up) 0%,
+            var(--gradient-down) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+    z-index: 0;
+}
+
+.over_gradient {
+    z-index: 3 !important;
+}
+
+.container {
+    position: relative;
+}
+
+.img_wp {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.35s ease-in-out;
+    -moz-transition: opacity 0.35s ease-in-out;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    backface-visibility: hidden;
+    opacity: 0.6;
+}
+
+#ecofinPanel {
+    background: url("../img/sochum_bg.jpeg") no-repeat top;
+    background-size: cover;
+}
+
+#ecofinPanel .panel_overlay {
+    background-color: rgb(var(--SOCHUM), 0.7);
+}
+
+#ecofinPanel .panel_link {
+    color: rgba(var(--SOCHUM));
+}
+
+#ecofinPanel:hover .middle_link {
+    opacity: 1;
+}
+
+#ecofinPanel:hover .panel_overlay {
+    opacity: 0.7;
+}
+
+.middle_link {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.circle:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: 0.7 ease;
+}
+
+.panel_link {
+    color: rgba(var(--SOCHUM));
+    opacity: 0.9;
+    padding-top: 11px;
+}
+
+.image>.img-fluid {
+    height: 100%;
+}
+
+.max-height-logo {
+    max-height: 7rem;
+}
+
+.panel_overlay {
+    background-color: rgb(var(--SOCHUM), 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+#crisisPanel {
+    background: url("../img/unodc_bg.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+#crisisPanel .panel_overlay {
+    background-color: rgb(var(--UNODC), 0.7);
+}
+
+#crisisPanel .panel_link {
+    color: rgba(var(--UNODC));
+}
+
+#crisisPanel:hover .middle_link {
+    opacity: 1;
+}
+
+#crisisPanel:hover .panel_overlay {
+    opacity: 0.7;
+}
+
+#hrPanel {
+    background: url("../img/who_bg.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+#hrPanel .panel_overlay {
+    background-color: rgb(var(--WHO), 0.7);
+}
+
+#hrPanel .panel_link {
+    color: rgba(var(--WHO));
+}
+
+#hrPanel:hover .middle_link {
+    opacity: 1;
+}
+
+#hrPanel:hover .panel_overlay {
+    opacity: 0.7;
+}
+
+#icjPanel {
+    background: url("../img/legal_bg.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+#icjPanel .panel_overlay {
+    background-color: rgb(var(--LEGAL), 0.7);
+}
+
+#icjPanel .panel_link {
+    color: rgba(var(--LEGAL));
+}
+
+#icjPanel:hover .middle_link {
+    opacity: 1;
+}
+
+#icjPanel:hover .panel_overlay {
+    opacity: 0.7;
+}
+
+#scPanel {
+    background: url("../img/unsc_bg.jpeg") no-repeat bottom;
+    background-size: cover;
+}
+
+#scPanel .panel_overlay {
+    background-color: rgb(var(--UNSC), 0.7);
+}
+
+#scPanel .panel_link {
+    color: rgba(var(--UNSC));
+}
+
+#scPanel:hover .middle_link {
+    opacity: 1;
+}
+
+#scPanel:hover .panel_overlay {
+    opacity: 0.7;
+}
+
+#lgPanel {
+    background: url("../img/Legal Committee.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#lgPanel .panel_overlay {
+    background-color: rgb(var(--Legal), 0.7);
+}
+
+#lgPanel .panel_link {
+    color: rgba(var(--Legal));
+}
+
+#lgPanel:hover .middle_link {
+    opacity: 1;
+}
+
+#lgPanel:hover .panel_overlay {
+    opacity: 0.7;
+}
+
+/*
+.header_commitees {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 50%;
+    font-family: "Avenir Next" !important;
+}
+*/
+.matrix_table {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.matrix_table li {
+    display: inline-block;
+    border: 3px solid rgba(var(--country_btn));
+    width: auto;
+    padding: 5px 18px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgba(var(--country_btn));
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.taken_country {
+    text-decoration: line-through;
+    color: rgba(71, 71, 71, 0.637) !important;
+    border: 3px solid rgba(71, 71, 71, 0.637) !important;
+}
+
+.icj_grad {
+    background-image: linear-gradient(to right, rgba(var(--LEGAL)), #ffc7433d);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--main-theme);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #520c1d;
+}
+
+h6 {
+    color: rgb(255, 255, 255);
+}
+
+.logoMobile {
+    height: 20vh;
+    display: none;
+}
+
+.container .dropdown .dropdown-menu a:hover {
+    color: #fff;
+    background-color: var(--main-theme);
+    border-color: var(--main-theme);
+}
+
+.dropdown .btn:active {
+    background: var(--secondary-theme);
+    color: #000;
+}
+
+.dropdown-menu.fade {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.show>.dropdown-menu.fade {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+@media (max-width: 767.98px) {
+    .max-height-logo {
+        max-height: 85px;
+    }
+
+    /*
+    .header_commitees {
+        background: url("../img/icj.png") no-repeat center;
+        background-size: cover;
+        height: 50%;
+    }*/
+
+    .logoMobile {
+        height: 20%;
+        display: block;
+    }
+
+    #title {
+        font-size: 70px;
+    }
+
+    #logo {
+        max-height: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .logoMobile {
+        height: 20%;
+        display: block;
+    }
+
+    /*
+    .header_commitees {
+        height: 50%;
+        background: url("../img/icj.png") no-repeat center;
+        background-size: cover;
+    }*/
+
+    #title {
+        font-size: 70px;
+    }
+
+    #logo {
+        max-height: 60px;
+    }
+}
+
+/* animation dropdown*/
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.fullpage {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+#page-loader {
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    right: 0%;
+    background-color: white;
+    z-index: 99;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+}
